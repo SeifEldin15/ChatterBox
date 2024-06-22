@@ -1,0 +1,23 @@
+.ContinueBtn{
+    margin-top:30px;
+    padding: 17px;
+    width:300px;
+    margin-top: 24px;
+    min-height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    color: white;
+    background-color: var(--main-color);
+    border: 0;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.ContinueBtn:hover{
+    background-color: var(--main-color-lighter);
+}
+@media only screen and (max-width: 430px) {
+    .ContinueBtn{
+        width:250px;
+    }
+}

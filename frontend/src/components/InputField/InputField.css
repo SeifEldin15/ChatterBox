@@ -1,0 +1,12 @@
+.InputField{
+    border-radius: 6px;
+    border: 0.01em solid var(--border-color-lightmode);
+    padding: 17px;
+    width:300px;
+    margin-top:30px;
+}
+@media only screen and (max-width: 430px) {
+    .InputField{
+        width:250px;
+    }
+}

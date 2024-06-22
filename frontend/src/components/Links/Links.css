@@ -1,0 +1,22 @@
+.Links{
+    display: flex;
+    justify-content: space-between;
+    width:40%;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.Links li {
+    transition-duration: 0.3s;
+}
+.Links li:hover{
+    color:var(--link-color);
+}
+@media (max-width: 900px) {
+    .Links{
+        display: none;
+    }
+  }
+
+  

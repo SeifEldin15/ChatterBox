@@ -1,0 +1,24 @@
+.Supports-Container{
+    display: flex;
+    align-items: center;
+}
+.Supports-Container p{
+  margin-right:30px;
+  font-size: 21px;
+    font-weight: 600;
+    color:rgb(84, 92, 102);
+}
+.Supports-Icon{
+    width:120px;
+}
+.Supports-logo{
+    margin-bottom:-5px;
+    margin-right:20px;
+}
+
+@media (max-width: 500px) {
+    .Supports-Icon{
+        width:85px;
+    }
+  }
+  

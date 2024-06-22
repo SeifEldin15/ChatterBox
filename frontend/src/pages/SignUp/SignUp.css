@@ -1,0 +1,24 @@
+.SignUpContainer{
+    display: flex;
+    align-items: center;
+    margin-top:80px;
+    flex-direction: column;
+}
+.SignUpHeader{
+    font-weight: bold;
+    font-size:24px
+} 
+.SignUpContainer div{
+    display: flex;
+    align-items: center;
+    margin-top:30px;
+}
+.SignUpContainer div a{
+     margin-left:2px;
+     color: green;     
+}
+@media only screen and (max-width: 430px) {
+    .SignUpContainer{
+        font-size: 14px;
+    }
+}

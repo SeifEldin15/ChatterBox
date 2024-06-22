@@ -1,0 +1,29 @@
+.GetStartedBtn{
+    background-color: var(--link-color);
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 500;
+    padding: 18px 26px;
+    font-family:  "system-ui" !important;
+    border:0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.GetStartedBtn i{
+    margin-right:10px;
+    margin-bottom: -3px;
+}
+.GetStartedBtn:hover{
+    background-color: var(--link-color-lighter);
+}
+@media (max-width: 500px) {
+    .GetStartedBtn{
+        padding: 16px 24px;
+        font-size: 13px;
+
+    }
+  }
+  
